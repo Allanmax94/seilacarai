@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form action="/contato" method="POST">
+        <label>Nome:</label><br>
+        <input type="text" name="nome" required><br><br>
+
+        <label>Mensagem:</label><br>
+        <textarea name="mensagem" rows="5" cols="30" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+    <a href="/">Voltar para a Página Inicial</a>
+</body>
+</html>

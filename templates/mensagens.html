@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Mensagens Enviadas</title>
+</head>
+<body>
+    <h1>Mensagens Recebidas</h1>
+
+    {% if mensagens %}
+        <ul>
+    {% for msg in mensagens %}
+        <li><strong>{{ msg.nome }}:</strong> {{ msg.texto }}</li>
+    {% endfor %}
+        </ul>
+
+    {% else %}
+        <p>Nenhuma mensagem recebida ainda.</p>
+    {% endif %}
+
+    <br>
+    <a href="/">Voltar à página inicial</a>
+</body>
+</html>

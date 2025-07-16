@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site com Flask</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+</head>
+<body>
+    <h1>Bem-vindo, {{ nome }}!</h1>
+    <p>Esse é o início do seu site com Flask.</p>
+    <a href="/sobre">Ir para a página Sobre</a>
+    <a href="/contato">Ir para a página de Contato</a>
+    <a href="/mensagens">Ver mensagens enviadas</a>
+
+
+</body>
+</html>

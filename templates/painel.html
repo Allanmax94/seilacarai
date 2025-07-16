@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Painel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+</head>
+<body>
+    <h1>Bem-vindo, {{ usuario }}!</h1>
+    <p>Você está logado no sistema.</p>
+    <a href="/logout">Sair</a>
+</body>
+</html>

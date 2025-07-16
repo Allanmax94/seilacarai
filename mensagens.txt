@@ -1,0 +1,12 @@
+Nome: Allan
+Mensagem: foda-se
+---
+Nome: ruby
+Mensagem: melhor linguagem
+---
+Nome: ruby
+Mensagem: melhor linguagem
+---
+Nome: Python
+Mensagem: easy to learn!
+---
